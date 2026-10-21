@@ -2,7 +2,7 @@ import subprocess
 import sys
 import time
 
-server = subprocess.Popen([sys.executable,'sql/api_server.py'])
+server = subprocess.Popen([sys.executable, '-m', 'sql.api_server'])
 time.sleep(3)
 
 try:

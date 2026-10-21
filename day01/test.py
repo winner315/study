@@ -14,7 +14,7 @@
 # b = " | ".join(['a', 'b', 'c'])
 # print(b)
 import datetime
-import shutil
+import shutil_study
 from pathlib import Path
 from pydoc import resolve
 from typing import Optional

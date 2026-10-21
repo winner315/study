@@ -1,0 +1,27 @@
+# 虚拟环境（98MB，绝对不能提交）
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 测试产物 / 报告
+.pytest_cache/
+allure-results/
+allure-report/
+
+# 日志
+log/
+*.log
+
+# IDE
+.idea/
+
+# 备份 / 归档
+_archive/
+*.bak
+*.bak-*
+
+# 本地密钥（口令别进仓库）
+.env

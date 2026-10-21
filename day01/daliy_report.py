@@ -1,5 +1,6 @@
-from pathlib import Path
 import shutil
+from pathlib import Path
+import shutil_study
 import datetime
 
 
@@ -48,21 +49,6 @@ def main():
             print(f'日记保存成功\n{write_content}\n')
     else:
         print('日记为保存')
-
-
-            # ─── 请你在下面填空 ───
-    # 1. 定义日记文件路径：当前目录下的 diary.txt
-    # 2. 用 ask 询问用户今天想写什么（提示文字："今天想写什么"）
-    #    （默认值可以不传，或传个空字符串，但 ask 的 default 已经有默认值 '' 了）
-    # 3. 如果用户输入了内容（非空）：
-    #    a. 先备份旧文件（调用 backup）
-    #    b. 读取旧内容（调用 read_text）
-    #    c. 打印旧内容（如果有的话，打印"历史日记：\n{旧内容}"）
-    #    d. 把新内容追加到文件（追加模式用 'a'，加个换行和日期标记）
-    #    e. 打印 "日记已保存！"
-    # 4. 如果用户没输入内容，打印 "日记未保存。"
-    pass  # 删掉这行，写上你的代码
-
 
 if __name__ == '__main__':
     main()

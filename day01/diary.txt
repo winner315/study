@@ -1,0 +1,12 @@
+20260818/n1120260818
+45454546488820260818
+999999999999999999999aefwsefwe
+20260818
+1345rt43520260818
+skrtgjbr
+2026年08月18日
+13kgrfdertghetrgh
+2026年08月18日
+1111
+2026年08月24日
+今天主要学install_cli函数包含的内容，比如subprocess.run([tool_path,'install','-g',package_name],timeout = 30)获取命令的执行结果，先用try，然后except来捕获报错信息，比如FileNotFoundError,subprocess.timeoutError还有except Exception as e

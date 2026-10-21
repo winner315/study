@@ -1,6 +1,7 @@
 pytest
 requests
 PyMySQL
+cryptography
 Flask
 PyYAML
 allure-pytest

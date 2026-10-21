@@ -42,7 +42,14 @@ jobs:
         run: |
           python -m sql.api_server &
           sleep 3
-          python -m pytest sql/test_api_db.py -v
+          python -m pytest sql/test_api_db.py -v --alluredir=allure-results
 
       - name: Run week02 tests
-        run: python -m pytest week02 -v
+        run: python -m pytest week02 -v --alluredir=allure-results
+
+      - name: Upload allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results

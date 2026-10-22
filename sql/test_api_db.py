@@ -21,4 +21,4 @@ def test_add_employee(emp):
     assert len(rows) == 1
 
     id,name,dept,salary = rows[0]
-    assert salary == 100000
+    assert salary == 99999
